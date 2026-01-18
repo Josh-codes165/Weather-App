@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 10px;
-    padding: 30px;
+    padding: 50px;
     justify-self: center;
     margin-top: 50px;
 }
@@ -25,6 +25,8 @@ body {
     text-align: center;
     margin-bottom: 40px;
     color: orange;
+    font-size: 45px;
+    
 }
 
 form {
@@ -57,4 +59,29 @@ button {
     flex-direction: column;
     gap: 20px;
     color: orange;
+    font-size: 20px;
+}
+
+@media (max-width: 495px){
+body {
+    padding: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+.weather-text {
+    font-size: 32px;
+}
+.display{
+    font-size: 16px;
+}
+input {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+}
 }
